@@ -2,18 +2,24 @@
 ![Python 2.7](https://img.shields.io/badge/python-2.7-green.svg)
 # Deep Object Pose Estimation - ROS Inference
 
+- - -
+
+**NOTE:** This is a **fork** from the official DOPE ROS pkg [repository](https://github.com/NVlabs/Deep_Object_Pose). This fork contains changes and instructons necessary to **run this pkg on a docker (version > 19.03)** Ubuntu 18.04 with ROS Melodic. Follow [these](doc/ubuntu_18_melodic_instructions.md) instructions.
+
+- - -
+
 This is the official DOPE ROS package for detection and 6-DoF pose estimation of **known objects** from an RGB camera.  The network has been trained on the following YCB objects:  cracker box, sugar box, tomato soup can, mustard bottle, potted meat can, and gelatin box.  For more details, see our [CoRL 2018 paper](https://arxiv.org/abs/1809.10790) and [video](https://youtu.be/yVGViBqWtBI).
 
 *Note:*  The instructions below refer to inference only.  Training code is also provided but not supported.
 
 ![DOPE Objects](dope_objects.png)
 
-## Update 
-16/03/2020 - Added a wiki (thanks to [@saratrajput](https://github.com/saratrajput)) 
+## Update
+16/03/2020 - Added a wiki (thanks to [@saratrajput](https://github.com/saratrajput))
 
 03/07/2019 - ROS interface update (thanks to Martin Günther)
 
-11/06/2019 - Added bleach YCB weights 
+11/06/2019 - Added bleach YCB weights
 
 ## Installing
 

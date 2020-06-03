@@ -1,0 +1,25 @@
+%YAML:1.0
+---
+image_width: 1920
+image_height: 1080
+camera_name: realsense
+camera_matrix: !!opencv-matrix
+  rows: 3
+  cols: 3
+  dt: d
+  data: [ 620.9823608398438, 0.0, 321.4024353027344, 0.0, 621.0851440429688, 244.55812072753906, 0.0, 0.0, 1.0 ]
+distortion_coefficients: !!opencv-matrix
+  rows: 5
+  cols: 1
+  dt: d
+  data: [ 0.0, 0.0, 0.0, 0.0, 0.0 ]
+rectification_matrix:  !!opencv-matrix
+  rows: 3
+  cols: 3
+  dt: d
+  data: [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+projection_matrix:  !!opencv-matrix
+  rows: 3
+  cols: 4
+  dt: d
+  data: [620.9823608398438, 0.0, 321.4024353027344, -0.0, 0.0, 621.0851440429688, 244.55812072753906, 0.0, 0.0, 0.0, 1.0, 0.0]
